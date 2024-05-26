@@ -7,6 +7,9 @@ body{
     background-image:url("assets/fondo.jpg") ;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     
 }
 header{
@@ -14,8 +17,7 @@ header{
     background-color: #246398;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    margin-bottom: 2rem;
+    align-items: center;    
 }
 ul{
     display: flex;
@@ -46,7 +48,7 @@ a{
     gap: 5rem;
 }
 .welcome{
-    background-color: #246398;
+    background-color: #F5B365;
     width: 100%;
     padding: 2rem 0 2rem 0;
     display: flex;
@@ -58,11 +60,6 @@ footer{
     align-items: center;
     justify-content: space-around;
     background-color: black;
-}
-box{
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
 }
 
 h1{
@@ -82,4 +79,15 @@ p{
 }
 .foot{
     font-size: 20px;
+}
+.boxSkills{
+    display: flex;
+    justify-content: center;
+    background-color: #F5B365;
+    margin: 0 25rem 0 25rem;
+}
+
+.skills{
+    width: 2000px;
+
 }
