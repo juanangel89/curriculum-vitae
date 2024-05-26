@@ -7,29 +7,30 @@ body{
     background-image:url("assets/fondo.jpg") ;
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;    
-    flex-direction: column;
-    justify-content: center;
+}
+header{
+    background-color: #246398;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-
+}
+ul{
+    display: flex;
     gap: 2rem;
-    padding: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 20px;
 }
 .brand{
     margin: 2rem;
-    width: 300px;
-    
+    width: 150px;
 }
-section{
-    width: 80%;
-    border-radius: 1rem;
-    border: 2px solid white;
-    background-color: rgb(255, 255, 255);
-    background: transparent;
-    backdrop-filter: blur(20px);
-    padding: 1rem;
 
-}
 .tittle{
     width: 30rem;
     text-align: start;
@@ -38,6 +39,8 @@ section{
     justify-content: center;
     flex-direction: column;
     gap: 1rem;
+    background: transparent;
+    backdrop-filter: blur(20px);
 }
 box{
     width: 80%;
