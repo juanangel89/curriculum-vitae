@@ -92,13 +92,23 @@ p{
     font-size: 20px;
 }
 .boxSkills{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.boxSkills > div {
+    width: 70%;
     display: flex;
     justify-content: center;
     background-color: #F5B365;
-    margin: 0 25rem 0 25rem;
 }
-
 .skills{
-    width: 1500px;
-
+    width: 50%;
+}
+.video{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
