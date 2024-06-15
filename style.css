@@ -107,8 +107,21 @@ p{
     width: 50%;
 }
 .video{
+    padding: 2rem;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
+}
+.ifographic{
+    padding: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.ifographic > img{
+    width: 60%;
 }
